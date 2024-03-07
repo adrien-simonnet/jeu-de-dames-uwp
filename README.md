@@ -1,5 +1,5 @@
 # Jeu de dames UWP
-Réalisation d’une application pour découvrir le jeu de dames sous toutes ses formes en supportant plus d’une dizaine de règles combinables. La recherche d’un coup optimal est possible peu importe les règles et paramétrable pour simuler diverses IA. Permet la génération d’études (problémisme) en se basant sur l’affrontement entre deux IA aboutissant dans une situation où les blancs peuvent forcer l’obtention d’une dame. Écrit en C++ pour la plateforme UWP.
+Application de jeu de dames écrit en C++ pour UWP supportant de nombreuses règles, avec algorithme de recherche d'un meilleur coup et génération d'études (problémisme).
 ## Règles
 L'algorithme accepte de nombreux paramètres ce qui permet de jouer à de nombreuses variantes du jeu de dames mais également de tester plusieurs milliers de combinaisons.
 - Déplacement diagonal, horizontal, ou vertical
