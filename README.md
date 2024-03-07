@@ -17,13 +17,15 @@ L'algorithme accepte de nombreux paramètres ce qui permet de jouer à de nombre
 ![Image](./images/règles.jpg)
 ## Algorithme de meilleur coup
 La recherche d’un coup optimal repose sur un algorithme MinMax est possible peu importe les règles et accepte différents paramètres pour générer différents styles de jeu.
-- [x] Nombre de coups à prévoir (de l'ordre de la seconde jusqu'à 6-7 coups, au delà la complexité explose)
-- [x] Analyse approfondie des prises (explore davantage les prises que les déplacements, ce qui permet de réduire l'arbre des possibilités uniquement aux cas intéressants)
-- [x] Valeur d'un pion (typiquement 1)
-- [x] Valeur d'une dame (habituellement 3 dans le cas de la variante internationale)
-- [x] Style de jeu vertical (jouer agressif ou défensif)
-- [x] Style de jeu horizontal (aller vers le centre ou vers les extérieurs)
-- [x] Faire des échanges (lorsque deux chemins ont le même poids)
+- Nombre de coups à prévoir (de l'ordre de la seconde jusqu'à 6-7 coups, au delà la complexité explose)
+- Analyse approfondie des prises (explore davantage les prises que les déplacements, ce qui permet de réduire l'arbre des possibilités uniquement aux cas intéressants)
+- Valeur d'un pion (typiquement 1)
+- Valeur d'une dame (habituellement 3 dans le cas de la variante internationale)
+- Style de jeu vertical (jouer agressif ou défensif)
+- Style de jeu horizontal (aller vers le centre ou vers les extérieurs)
+- Faire des échanges (lorsque deux chemins ont le même poids)
+
+![Image](./images/ordinateur.jpg)
 ## Problémisme
 La génération d’études se base sur l’affrontement de deux algorithmes de meilleur coup à partir d'une situation de jeu aléatoire aboutissant dans une situation où les blancs peuvent forcer l’obtention d’une dame en un certain nombre de coups.
 
