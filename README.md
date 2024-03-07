@@ -29,3 +29,4 @@ La recherche d’un coup optimal repose sur un algorithme MinMax est possible pe
 ## Problémisme
 La génération d’études se base sur l’affrontement de deux algorithmes de meilleur coup à partir d'une situation de jeu aléatoire aboutissant dans une situation où les blancs peuvent forcer l’obtention d’une dame en un certain nombre de coups.
 
+https://github.com/adrien-simonnet/jeu-de-dames-uwp/assets/56685429/99fb8be7-d07f-4c13-97c8-3536effc74a2
