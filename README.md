@@ -22,3 +22,6 @@ La recherche d’un coup optimal repose sur un algorithme MinMax est possible pe
 - [x] Style de jeu vertical (jouer agressif ou défensif)
 - [x] Style de jeu horizontal (aller vers le centre ou vers les extérieurs)
 - [x] Faire des échanges (lorsque deux chemins ont le même poids)
+## Problémisme
+La génération d’études se base sur l’affrontement de deux algorithmes de meilleur coup à partir d'une situation de jeu aléatoire aboutissant dans une situation où les blancs peuvent forcer l’obtention d’une dame en un certain nombre de coups.
+
